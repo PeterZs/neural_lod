@@ -49,7 +49,7 @@ Once compiled you can run a scene with a given configuration file **from the bui
  
 ## Getting the scenes used in the paper
 
-The repository only ships with the Arcade scene. The other scenes used in the paper can be downloaded separately [from the University of Saarland Cloud Server](https://oc.cs.uni-saarland.de/owncloud/index.php/s/jiBspDkSkGW9yPT) along with the pre-trained network weights. Simply download and copy the scene folders next to the arcade scene folder in `neural_lod/scenes/`. The other pre-trained scenes can then be rendered similarly, for example, to run the pre-trained Bay Cedar scene from the Moana Scene data-set use:  
+The repository only ships with the Arcade scene. The other scenes used in the paper can be downloaded separately [here](https://drive.google.com/drive/folders/1Vc5gxQ-qmquV4LGHQgDFRDvzydhjN4_K?usp=sharing) along with the pre-trained network weights. Simply download and copy the scene folders next to the arcade scene folder in `neural_lod/scenes/`. The other pre-trained scenes can then be rendered similarly, for example, to run the pre-trained Bay Cedar scene from the Moana Scene data-set use:  
 
 ```bash
 ./rptr ../../neural_lod/scenes/isBayCedarA1/isBayCedarA1.vks --config ../../neural_lod/scenes/isBayCedarA1/isBayCedarA1_world_final.ini --img 1024 1024
